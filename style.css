@@ -31,6 +31,15 @@ body {
     padding: 150px 350px;
 }
 
+.fourthcont {
+    display: flex;
+    padding: 50px 80px;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 100px 300px;
+    border-radius: 8px;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -65,7 +74,7 @@ body {
 
 .maintitle {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -80,7 +89,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 900;
     padding: 20px 0;
 }
 
@@ -120,12 +129,28 @@ body {
     color: #1F2937;
 }
 
+.register {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+
+.regtitle {
+    font-weight: bold;
+}
+
+.regtext {
+    color: #E5E7EB;
+}
+
 button {
-    border: none;
+    /* border: none; */
+    border-color: #F9FAF8;
     border-radius: 8px;
     background: #3882F6;
     padding: 8px 24px;
-    color: #E5E7EB;
+    color: #F9FAF8;
 }
 
 ul {
